@@ -33,7 +33,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
     - Unless you know powershell
 
 - Mac
-  -Terminal
+  - Terminal
 
 - Linux
   - You probably know
