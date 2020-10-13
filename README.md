@@ -46,8 +46,8 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 # Creating A Repo
 
-  - mkdir git_workshop
-  - cd git_workshop
+  - `mkdir git_workshop`
+  - `cd git_workshop`
   - `ls -a`
     - The -a is for all
   - ` git init `
