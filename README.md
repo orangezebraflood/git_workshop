@@ -26,9 +26,9 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
   - Mac
   - Linux
 
-# Using The Terminal
+# The Terminal
 
-- windows 
+- Windows 
   - just open git bash
     - Unless you know powershell
 
