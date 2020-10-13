@@ -76,7 +76,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
     `added empty README file`
     - To do this we run `git commit -m "added empty README file"`
     - Often commit messages are one line
-      - An additional "-m" flag allows for adding more details
+      - An additional `-m` flag allows for adding more details
 
 # Lets Put It On Github
 >  TODO: add screen shots <12-10-20 Gavin Jaeger-Freeborn>
@@ -85,7 +85,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 # Pushing To The Git Repository
 - Using github as your remote repo
-`git remote add origin 'https://github.com/<YourGithubAccount>/<RepositoryName>.git'
+`git remote add origin 'https://github.com/<YourGithubAccount>/<RepositoryName>.git'`
 
 - Then we **push** our changes to github
 `git push -u origin master`
