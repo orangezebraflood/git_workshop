@@ -74,7 +74,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
  - Message explaining what changed since the last commit and why
     - Lets just make our git message something like
     `added empty README file`
-    - To do this we run `git commit -m "added empty README file"
+    - To do this we run `git commit -m "added empty README file"`
     - Often commit messages are one line
       - An additional "-m" flag allows for adding more details
 
