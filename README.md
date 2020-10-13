@@ -7,45 +7,54 @@
 # What is Version Control?
 
   - We have all made a mistake when writing code and wanted to go back.
-  - a version control system allows us to do that.
-  - it also allows for better collaboration without risking breaking something that your teammate is working on
+  - Version control systems allows us to do that.
+  - Also allows for better collaboration
 
 # What Is Github
 
-  - While git is the underlying tool that we use for version control
-  - Github is where you make your code available for others and to store
-  - Think of it like a Youtube but for videos instead of git.
-  - Github provides lot of feature for collaboration, testing and much more.
-    - Some of these features we will cover later in this workshop
+  - Where you make your code available for others and to store
+  - Youtube but for git instead of videos.
+  - Provides lot of feature for collaboration, testing and much more.
+    - Some will be cover later in this workshop
   - Alternatives
     - Gitlab, Bitbucket, etc
 
 # Installing git
 
-  - Use git bash on windows
-  - on Mac
+go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
+  - Windows
+  - Mac
   - Linux
 
 # Using The Terminal
 
-- For windows you can just open git bash
+- windows 
+  - just open git bash
+    - Unless you know powershell
+
+- Mac
+  -Terminal
+
+- Linux
+  - You probably know
 
 ## Why
 
-- It is often the fastest way to get things done
+- Often the fastest way to get things done
+- Find out what the gui is doing under the hood
 - Think of it as a more picky Google assistant
-- Why are we using the terminal the
 
 # Creating A Repo
 
   - mkdir git_workshop
   - cd git_workshop
   - `ls -a`
-    - the -a is for all
+    - The -a is for all
   - ` git init `
   - `ls -a`
-  - you will now see a `.git` file
-    - This is called your local repository it holds all the version control data that you have tracked so far
+  - You will now see a `.git` file
+    - This is your local repository
+      - It holds all the version control data for git
 
 # Adding A Change
 
@@ -62,12 +71,12 @@
 
 # Commit Messages
 
- - When committing our code we leave a message explaining what changed since our last commit
+ - Message explaining what changed since the last commit and why
     - Lets just make our git message something like
     `added empty README file`
-    - to do this we run ` git commit -m "added empty README file"
-    - often commit messages are one line
-      - you can add details by adding more "-m" flags
+    - To do this we run `git commit -m "added empty README file"
+    - Often commit messages are one line
+      - You can add details by adding more "-m" flags
 
 # Lets Put It On Github
 >  TODO: add screen shots <12-10-20 Gavin Jaeger-Freeborn>
@@ -75,7 +84,7 @@
 
 
 # Pushing To The Git Repository
-- using github as your remote repo
+- Using github as your remote repo
 `git remote add origin 'https://github.com/<YourGithubAccount>/<RepositoryName>.git'
 
 - Then we **push** our changes to github
@@ -109,20 +118,20 @@ or
 
 # Lets Create A Pull Request
 
-1.  Make a change to the `README.md` file.
-2.  Add, commit, and push this change to your fork
-3.  You will see a `New Pull Request` button
-4.  Set compare changes across forks
-5.  Compare your fork and make a pull request
-6.  create a pull request with information about what you have changed
-7.  Click `create pull request` below the text box and you are done
+1. Make a change to the `README.md` file.
+2. Add, commit, and push this change to your fork
+3. Click the green `New` or `New Pull Request` button 
+4. Set compare changes across forks
+5. Compare your fork and make a pull request
+6. Click `create pull request`
+7. explain what was changed in your fork 
+8. Click the `create pull request` below the text box and you are done.
 
 # Self Promo
 
-- check me out on [Youtube](https://www.youtube.com/channel/UCJetJ7nDNLlEzDLXv7KIo0w?view_as=subscriber)
+- Check me out on [Youtube](https://www.youtube.com/channel/UCJetJ7nDNLlEzDLXv7KIo0w?view_as=subscriber)
 
 # More Resources
 
 - [collections of git resources on Github](https://try.github.io/)
 - [guides on Github outside of git](https://guides.github.com/)
-
