@@ -6,15 +6,15 @@
 
 # What is Version Control?
 
-  - We have all made a mistake when writing code and wanted to go back.
-  - Version control systems allows us to do that.
+  - We have all made a mistake when writing code and wanted to go back
+  - Version control systems allows us to do that
   - Also allows for better collaboration
 
 # What Is Github
 
-  - Where you make your code available for others and to store
-  - Youtube but for git instead of videos.
-  - Provides lot of feature for collaboration, testing and much more.
+  - Where you make your code available for others
+  - Youtube but for git instead of videos
+  - Provides features for collaboration, testing and much more
     - Some will be cover later in this workshop
   - Alternatives
     - Gitlab, Bitbucket, etc
@@ -41,7 +41,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
 ## Why
 
 - Often the fastest way to get things done
-- Find out what the gui is doing under the hood
+- Find out what the GUI is doing under the hood
 - Think of it as a more picky Google assistant
 
 # Creating A Repo
@@ -66,7 +66,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
 # Committing A Change
 
   - Now that git has tracked the creation of README.md lets **commit** it
-    - Commits are similar to checkpoints in a video game.
+    - Commits are similar to checkpoints in a video game
     - using `git commit` we can commit this change
 
 # Commit Messages
@@ -76,7 +76,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
     `added empty README file`
     - To do this we run `git commit -m "added empty README file"
     - Often commit messages are one line
-      - You can add details by adding more "-m" flags
+      - An additional "-m" flag allows for adding more details
 
 # Lets Put It On Github
 >  TODO: add screen shots <12-10-20 Gavin Jaeger-Freeborn>
@@ -93,7 +93,7 @@ or
 `git push --set-upstream origin master`
 
 - Now lets check on the repository
-  - Refresh the github page and it should now show your README.md file is now there.
+  - Refresh the github page and it should now show your README.md
 
 # Quick Github Tour
 
@@ -110,7 +110,7 @@ or
 
 # Lets Fork
 - Go to [https://github.com/Gavinok/git_workshop](https://github.com/Gavinok/git_workshop)
-- In the top right you will see a fork option.
+- In the top right you will see a fork option
   - Click it
   - Now you will have your own version of the notes on this workshop
 
@@ -118,14 +118,14 @@ or
 
 # Lets Create A Pull Request
 
-1. Make a change to the `README.md` file.
+1. Make a change to the `README.md` file
 2. Add, commit, and push this change to your fork
 3. Click the green `New` or `New Pull Request` button 
 4. Set compare changes across forks
 5. Compare your fork and make a pull request
 6. Click `create pull request`
 7. explain what was changed in your fork 
-8. Click the `create pull request` below the text box and you are done.
+8. Click the `create pull request` below the text box and you are done
 
 # Self Promo
 
