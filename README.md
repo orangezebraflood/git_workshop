@@ -85,7 +85,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 # Pushing To The Git Repository
 - Using github as your remote repo
-`git remote add origin 'https://github.com/<YourGithubAccount>/<RepositoryName>.git'`
+`git remote add origin 'https://github.com/<YourGithubAccount>/<RepoName>.git'`
 
 - Then we **push** our changes to github
 `git push -u origin master`
