@@ -29,7 +29,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
 # The Terminal
 
 - Windows 
-  - just open git bash
+  - Just open git bash
     - Unless you know powershell
 
 - Mac
@@ -79,9 +79,7 @@ go to [https://git-scm.com/downloads](https://git-scm.com/downloads)
       - An additional `-m` flag allows for adding more details
 
 # Lets Put It On Github
->  TODO: add screen shots <12-10-20 Gavin Jaeger-Freeborn>
-- Screen shots will be added later
-
+![](2020-10-28_15:05:28.png)
 
 # Pushing To The Git Repository
 - Using github as your remote repo
